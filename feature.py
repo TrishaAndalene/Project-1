@@ -86,6 +86,7 @@ def menu2():
 	print("Apps collection :")
 	print("[1] Item Reminder")
 	print("[2] Temperature Converter")
+	print("[3] Planetarium ")
 	print("[Q] Quit Application")
 
 def menu3():
@@ -330,3 +331,42 @@ def search():
 		print(f'{name} doesnot exist in itemlist')
 
 	input("[ENTER] to go back")
+
+def planetarium():
+	system('cls')
+	print("Welcome to Planetarium")
+	sleep(0.5)
+	n = 0
+	print("Preparing pdf 0 %")
+	sleep(0.5)
+	while n != 100:
+		system('cls')
+		n += 1
+		print("Preparing pdf", (n), " %")
+
+	sleep(0.5)
+	system('cls')
+	print("Warning : This is a pdf downloader")
+	sleep(0.5)
+
+def pdf():
+	system('cls')
+	print("Milky way Galaxy [! x to exit !]")
+	print("Solar system's planets")
+	print("[1] Mercury")
+	print("[2] Venus")
+	print("[3] Earth")
+	print("[4] Mars")
+	print("[5] Jupiter")
+	print("[6] Saturn")
+	print("[7] Uranus")
+	print("[8] Neptune")
+	print("")
+	print("Exoplanets")
+	print("[9] LkCa 15 b")
+	print("[10] WASP-121b")
+	print("[11] Osiris or HD209458b")
+	print("[12] Kepler-62e")
+	print("[13] 55 Cancri e")
+	print("[14] TRAPPIST-1e")
+	print("")
