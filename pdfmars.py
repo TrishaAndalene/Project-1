@@ -395,7 +395,7 @@ def LkCa():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("img/LkCa 15 b.jpg", 70, 300)
+	myPdf.drawInlineImage("img/LkCa 15 b.jpg", 70, 320)
 	saving()
 	myPdf.save()
 		
@@ -530,7 +530,7 @@ def Kepler():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("img/kepler-62e.jfif", 70, 300)
+	myPdf.drawInlineImage("img/kepler-62e.jfif", 70, 330)
 	saving()
 	myPdf.save()	
 	
@@ -575,7 +575,7 @@ def Cancri():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("img/cancri.jpg", 70, 300)
+	myPdf.drawInlineImage("img/cancri.jpg", 70, 330)
 	saving()
 	myPdf.save()	
 	
