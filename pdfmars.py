@@ -39,7 +39,7 @@ def mars():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("mars.jfif", 150, 290)
+	myPdf.drawInlineImage("img/mars.jfif", 150, 290)
 	saving()
 	myPdf.save()
 
@@ -82,7 +82,7 @@ def Earth():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("bumi2.png", 95, 330)
+	myPdf.drawInlineImage("img/bumi2.png", 95, 330)
 	saving()
 	myPdf.save()
 	
@@ -126,7 +126,7 @@ def merkurius():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("mercury.jpg", 95, 330)
+	myPdf.drawInlineImage("img/mercury.jpg", 95, 330)
 	saving()
 	myPdf.save()
 	
@@ -170,7 +170,7 @@ def venus():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("venus.jpg", 95, 300)
+	myPdf.drawInlineImage("img/venus.jpg", 95, 300)
 	saving()
 	myPdf.save()
 	
@@ -215,7 +215,7 @@ def jupiter():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("jupiter.jpg", 95, 330)
+	myPdf.drawInlineImage("img/jupiter.jpg", 95, 330)
 	saving()
 	myPdf.save()
 
@@ -260,7 +260,7 @@ def saturnus():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("saturn.jpg", 50, 270)
+	myPdf.drawInlineImage("img/saturn.jpg", 50, 270)
 	saving()
 	myPdf.save()
 
@@ -305,7 +305,7 @@ def uranus():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("uranus.jfif", 95, 360)
+	myPdf.drawInlineImage("img/uranus.jfif", 95, 360)
 	saving()
 	myPdf.save()
 	
@@ -350,7 +350,7 @@ def neptunus():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("neptune.jpg", 70, 250)
+	myPdf.drawInlineImage("img/neptune.jpg", 70, 250)
 	saving()
 	myPdf.save()
 
@@ -395,7 +395,7 @@ def LkCa():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("LkCa 15 b.jpg", 70, 300)
+	myPdf.drawInlineImage("img/LkCa 15 b.jpg", 70, 300)
 	saving()
 	myPdf.save()
 		
@@ -440,7 +440,7 @@ def WASP():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("WASP-121b.jpg", 70, 330)
+	myPdf.drawInlineImage("img/WASP-121b.jpg", 70, 330)
 	saving()
 	myPdf.save()
 		
@@ -485,7 +485,7 @@ def Osiris():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("osiris.jpeg", 70, 300)
+	myPdf.drawInlineImage("img/osiris.jpeg", 70, 300)
 	saving()
 	myPdf.save()
 	
@@ -530,7 +530,7 @@ def Kepler():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("kepler-62e.jfif", 70, 300)
+	myPdf.drawInlineImage("img/kepler-62e.jfif", 70, 300)
 	saving()
 	myPdf.save()	
 	
@@ -575,7 +575,7 @@ def Cancri():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("cancri.jpg", 70, 300)
+	myPdf.drawInlineImage("img/cancri.jpg", 70, 300)
 	saving()
 	myPdf.save()	
 	
@@ -620,7 +620,7 @@ def trappist():
 		myText.textLine(line)
 	myPdf.drawText(myText)
 
-	myPdf.drawInlineImage("trappist.jpg", 70, 350)
+	myPdf.drawInlineImage("img/trappist.jpg", 70, 350)
 	saving()
 	myPdf.save()
 	
